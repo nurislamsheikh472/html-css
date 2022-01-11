@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+html{
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+
+}
+body{
+    background-color: #ffff;
+   width:120rem;
+   max-width: 100%;
+ 
+    margin: 0 auto;
+    box-shadow: 0.1rem 0.1em 0.1rem black,-0.1rem 0rem 0.1rem black;
+
+}
+
+#blog-project{
+    padding: 2rem 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    z-index: 10;
+  
+
+
+    
+}
+
+
+i.fab.fa-autoprefixer.logo {
+    font-size: 4rem;
+    border: 5px solid white;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+
+    font-family: monospace;
+    transition: 0.5s;
+}
+nav ul li:last-child{
+    margin-right: 0px;
+}
+nav ul li a{
+    color: white;
+    font-size: 2rem;
+    font-family: monospace;
+    transition: 0.5s;
+    padding: 1rem;
+
+    
+    
+}
+nav ul li a:hover{
+    background-color: violet;
+    border-radius: 5px;
+}
+/* web-developemt desing starts here */
+
+
+
+#web-development{
+    padding: 100px 30px;
+    display: flex;
+}
+article .web-details{
+    width:50%;
+}
+aside .aside-img{
+    width:50%;
+}
+.aside-img img{
+    max-width: 100%;
+    border: 3px solid black;
+   
+}
+.web-details{
+    text-align: center;
+}
+.web-details h1{
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.web-details p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+/*  About design starts */
+
+section.About-me {
+    background: #4c4c4c;
+    min-height: 95vh;
+    padding: 3rem 2rem;
+}
+
+h2.card-heading {
+  text-align: center;
+    font-size: 4rem;
+    font-family: 'Italianno', cursive;
+    padding: 2rem;
+    color: white;
+   
+}
+
+.card {
+
+   display: flex;
+   flex-direction: column;
+    margin: 2rem;
+    background: #928989;
+    flex: 1;
+    width: 33.33%;
+    padding: 3rem 1rem;
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+.card:hover{
+    transform:scale(1.1);
+}
+
+button {
+    width: 80%;
+    margin: auto;
+    background: rgb(230,159,8);
+    /* color: white; */
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+
+}
+
+h3.card-header {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+.card p {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-container {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+ 
+ 
+}
+.achieve-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.achieve-content-lists{
+    
+border-top: 0.1rem solid black;
+border-bottom: 0.1rem solid black;
+      display: flex;
+      padding: 2rem;
+
+}
+.achieve-content-lists img:hover{
+    transform: scale(1.1);
+}
+.achieve-content-list{
+    margin: 2rem;
+
+}
+.achieve-content-list img{
+    width:100%;
+    height: 100%;
+    transition:transform .4s;
+
+    
+}
+
+
+
+/* About desing ends */
+/* achieve starts here*/
+#achieve{
+    padding: 5rem 1rem;
+    
+}
+.card-head{
+    font-size: 4rem;
+    font-family: 'Italianno', cursive;
+    padding: 2rem;
+    text-align: center;
+}
+/* achieve ends here*/
+
+
+/* Blog desing ends here */
+.blog-post{
+    width:70%;
+    margin:3rem auto;
+    display: flex;
+    box-shadow: 0.1rem 0.1rem 0.1rem black,-0.1rem 0 0.1rem black;
+    transition: transform 0.4s;
+     
+    
+}
+.blog-post:hover{
+    transform: scale(1.1);
+}
+.blog-posts{
+ 
+    padding: 5rem 1rem;
+    margin: 2rem;
+    height: 95vh;
+}
+.aside-content-img img{
+   
+    width:100%;
+}
+.aside-content-img{
+    flex: 1;
+}
+.content-article{
+    margin-left: 2rem;
+    padding: 1rem;
+    flex: 2;
+}
+.blog-1{
+    font-size: 3rem;
+    color: #555;
+    margin-bottom: 1rem;
+
+}
+.blog-2{
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+.content-article p{
+    font-size: 1.8rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.content-article .btn-learn{
+    width:30%;
+}
+/* Blog desing ends here */
+#contact-section {
+    background-color: #4c4c4c;
+    min-height: 90vh;
+  }
+  #contact-form {
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+    margin: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-control label {
+    font-size: 1.6rem;
+    flex: 0.3;
+  }
+  input,
+  textarea {
+    flex: 0.7;
+    width: 40rem;
+    font-size: 1.6rem;
+    padding: 2rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+  }
+  textarea {
+    resize: none;
+    height: 12vh;
+  }
+  .form-btn-field {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact-btn {
+    width: 30%;
+  }
+#footer-ex{
+    background-color: black;
+    color: white;
+    padding: 5rem 1rem;
+ 
+}
+.container-footer{
+    display: flex;
+    justify-content:space-evenly;
+
+  
+
+}
+.footer-desc p{
+    font-size: 2rem;
+}
+.social-icon i{
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: white;
+    transition: all 0.4s;
+
+}
+.social-icon i:hover{
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:992px) {
+    
+}
+@media screen and (max-width:768px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    html{
+        font-size: 48.5%;
+    }
+    #blog-project{
+        flex-direction: column;
+      
+
+    }
+    nav ul{
+        padding-left: 2.5rem;
+    }
+    
+    nav ul li{
+        display: block;
+ }
+    nav ul li a{
+        margin: 2rem 0rem;
+        display: block;
+        text-align: center;
+        padding:1rem;
+    }
+  /* web-developemt desing starts here */
+
+
+  #web-development{
+      flex-direction: column;
+  }
+  .web-details{
+      margin: auto;
+     margin-bottom:2rem;   
+  }
+  .web-details h1{
+      min-width: 32rem;
+  }
+  /* web-developemt desing ends here */
+  /*  about design starts here*/
+.card{
+    flex-wrap: wrap;
+}
+.achieve-content-lists{
+    flex-direction: column;
+}
+.achieve-content-list img{
+    width:80%;
+    height:auto;
+    margin: auto;
+}
+
+  /* about design ends here */
+  .container-footer{
+      display: flex;
+      flex-direction: column;
+        line-height: 4rem;
+      
+      justify-content: center;
+      align-items: center;
+  }
+
+@media screen and (max-width:400px) {
+    
+}
